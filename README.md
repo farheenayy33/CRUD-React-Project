@@ -219,4 +219,4 @@ Free to use and modify for learning purposes.
 
 ---
 
-**Happy Coding!** 🚀
+<p align="center ">**Happy Coding!** 🚀</p>
