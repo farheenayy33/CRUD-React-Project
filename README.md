@@ -96,13 +96,13 @@ npm run dev
 ## API Endpoints
 
 The app uses **JSONPlaceholder** API (free fake REST API):
-
+```
 | Method | Endpoint | Function |
 | GET | `/posts` | Fetch all posts |
 | POST | `/posts` | Create new post |
 | PUT | `/posts/:id` | Update post |
 | DELETE | `/posts/:id` | Delete post |
-
+```
 **Note:** JSONPlaceholder responses don't persist on the server, so deletes and updates are simulated locally in the UI.
 
 ## Component Details
