@@ -207,7 +207,7 @@ The project uses **Tailwind CSS** for styling. Key classes used:
 Free to use and modify for learning purposes.
 
 ## Author
-
+ Farheen Laraib
 Created with ❤️ for learning React CRUD operations
 
 ---
