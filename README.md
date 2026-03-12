@@ -22,7 +22,6 @@ A simple and efficient **CRUD** (Create, Read, Update, Delete) application built
 
 ## Project Structure
 
-
 Curd/
 ├── src/
 │   ├── components/
@@ -39,6 +38,7 @@ Curd/
 ├── index.html                # HTML template
 ├── package.json              # Dependencies & scripts
 ├── vite.config.js            # Vite configuration
+
 ## Project Preview
 
 ![CRUD Application Preview](src/assets/Preview1.png)
@@ -67,7 +67,7 @@ npm run dev
 
 1.**Open in browser:**
 
-http://localhost:5173
+[http://localhost:5173]
 
 ## Usage
 
@@ -96,7 +96,6 @@ http://localhost:5173
 The app uses **JSONPlaceholder** API (free fake REST API):
 
 | Method | Endpoint | Function |
-|--------|----------|----------|
 | GET | `/posts` | Fetch all posts |
 | POST | `/posts` | Create new post |
 | PUT | `/posts/:id` | Update post |
@@ -200,23 +199,23 @@ The project uses **Tailwind CSS** for styling. Key classes used:
 ## Future Enhancements
 
 🎯 Possible improvements:
-- Add search/filter functionality
-- Add sorting by date/title
-- Add pagination
-- Add user authentication
-- Add categories/tags
-- Add comments on posts
-- Add image uploads
-- Save data to local database
+-Add search/filter functionality
+-Add sorting by date/title
+-Add pagination
+-Add user authentication
+-Add categories/tags
+-Add comments on posts
+-Add image uploads
+-Save data to local database
 
 ## License
-
+-MIT License
 Free to use and modify for learning purposes.
 
 ## Author
 
-- Farheen Laraib
-- Created with ❤️ for learning React CRUD operations
+- <p align="center">Farheen Laraib</p>
+- <p align="center"> Created with ❤️ for learning React CRUD operations</p>
 
 ---
 
