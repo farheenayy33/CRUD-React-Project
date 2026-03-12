@@ -22,7 +22,7 @@ A simple and efficient **CRUD** (Create, Read, Update, Delete) application built
 
 ## Project Structure
 
-```
+
 Curd/
 ├── src/
 │   ├── components/
@@ -39,8 +39,10 @@ Curd/
 ├── index.html                # HTML template
 ├── package.json              # Dependencies & scripts
 ├── vite.config.js            # Vite configuration
-└── README.md                 # This file
-```
+## Project Preview
+
+![CRUD Application Preview](src/assets/Preview1.png)
+![CRUD Application Preview](src/assets/preview2.png)
 
 ## Getting Started
 
@@ -51,25 +53,21 @@ Curd/
 
 ### Installation
 
-1. **Clone or navigate to the project:**
-```bash
+1.**Clone or navigate to the project:**
+bash
 cd Curd
-```
 
-2. **Install dependencies:**
-```bash
+1.**Install dependencies:**
+
 npm install
-```
 
-3. **Start the development server:**
-```bash
+1.**Start the development server:**
+bash
 npm run dev
-```
 
-4. **Open in browser:**
-```
+1.**Open in browser:**
+
 http://localhost:5173
-```
 
 ## Usage
 
