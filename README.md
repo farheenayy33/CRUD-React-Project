@@ -22,6 +22,7 @@ A simple and efficient **CRUD** (Create, Read, Update, Delete) application built
 
 ## Project Structure
 
+```
 Curd/
 ├── src/
 │   ├── components/
@@ -38,6 +39,7 @@ Curd/
 ├── index.html                # HTML template
 ├── package.json              # Dependencies & scripts
 ├── vite.config.js            # Vite configuration
+```
 
 ## Project Preview
 
