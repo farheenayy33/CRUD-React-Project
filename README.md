@@ -109,6 +109,7 @@ The app uses **JSONPlaceholder** API (free fake REST API):
 ## Component Details
 
 ### Form.jsx
+
 - Handles both **add** and **edit** modes
 - Auto-fills when editing a post
 - Form validation (checks for empty fields)
@@ -117,6 +118,7 @@ The app uses **JSONPlaceholder** API (free fake REST API):
 - Displays success alerts
 
 ### GetPost.jsx
+
 - Fetches posts on component mount
 - Displays posts in a responsive grid
 - Shows post ID, title, and body
@@ -126,6 +128,7 @@ The app uses **JSONPlaceholder** API (free fake REST API):
 - Empty state message when no posts exist
 
 ### GetApi.jsx
+
 - Axios instance configuration
 - `getData()` - Fetch all posts
 - `PostData(item)` - Create new post
@@ -162,16 +165,19 @@ The project uses **Tailwind CSS** for styling. Key classes used:
 ## Features Explained
 
 ### Sequential IDs for New Posts
+
 - API posts use IDs 1-100
 - New posts automatically get IDs 101, 102, etc.
 - Prevents duplicate key errors in React
 
 ### Loading States
+
 - Disables form inputs while submitting
 - Button shows "Processing..." during requests
 - Prevents double submissions
 
 ### Real-time UI Updates
+
 - No page refresh needed
 - Instant visual feedback
 - Posts update immediately in the grid
@@ -179,15 +185,18 @@ The project uses **Tailwind CSS** for styling. Key classes used:
 ## Troubleshooting
 
 ### Posts not loading?
+
 - Check browser console for errors
 - Ensure internet connection (API calls need network)
 - Verify JSONPlaceholder API is accessible
 
 ### Edit form not populating?
+
 - Make sure `Updatepost` state is being passed correctly
 - Check browser console for errors
 
 ### Duplicate ID error?
+
 - Fixed! New posts use sequential IDs
 
 ## Future Enhancements
@@ -207,8 +216,9 @@ The project uses **Tailwind CSS** for styling. Key classes used:
 Free to use and modify for learning purposes.
 
 ## Author
- Farheen Laraib
-Created with ❤️ for learning React CRUD operations
+
+- Farheen Laraib
+- Created with ❤️ for learning React CRUD operations
 
 ---
 
