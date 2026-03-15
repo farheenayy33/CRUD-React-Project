@@ -43,6 +43,8 @@ Curd/
 
 ## Project Preview
 
+![CRUD Application Demo](src/assets/media/Demo.gif)
+
 ![CRUD Application Preview](src/assets/Preview1.png)
 ![CRUD Application Preview](src/assets/preview2.png)
 
@@ -57,6 +59,7 @@ Curd/
 
 1.**Clone or navigate to the project:**
 bash
+[https://github.com/farheenayy33/CRUD-React-Project.git]
 cd Curd
 
 1.**Install dependencies:**
